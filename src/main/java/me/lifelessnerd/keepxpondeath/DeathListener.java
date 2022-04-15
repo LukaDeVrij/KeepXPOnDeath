@@ -21,7 +21,6 @@ public class DeathListener implements Listener {
 
             if (Objects.requireNonNull(event.getEntity().getKiller()).getType() == EntityType.PLAYER) { //If killer is another player
 
-                System.out.println("debug1");
                 event.setDroppedExp(0);
                 event.setKeepLevel(true);
                 player.sendMessage("Omdat je bent gedood door een andere speler behoud je je XP.");
