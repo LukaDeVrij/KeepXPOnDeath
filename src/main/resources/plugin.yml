@@ -1,0 +1,6 @@
+name: KeepXPOnDeath
+version: '${project.version}'
+main: me.lifelessnerd.keepxpondeath.KeepXPOnDeath
+api-version: 1.18
+authors: [ LifelessNerd ]
+description: Plugin that makes it so when you get killed by a player, your XP stays, instead of it dropping to the ground. This way pvp is more accessible, because the risk of losing levels is no more.
